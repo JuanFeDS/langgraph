@@ -1,7 +1,11 @@
 {
     "dependencies": ["."],
     "graphs": {
-        "agent": "./src/agents/main.py:agent"
+        "agent": "./src/agents/main.py:agent",
+        "simple": "./src/agents/simple.py:agent",
+        "simple_llm": "./src/agents/simple_llm.py:agent",
+        "simple_chat": "./src/agents/simple_chat.py:agent",
+        "simple_rag": "./src/agents/simple_rag.py:agent"
     },
     "env": ".env"
 }
