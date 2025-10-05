@@ -9,6 +9,10 @@ __pycache__/
 
 .langgraph_api/
 
+# Extensions
+*.pdf
+*.csv
+
 # C extensions
 *.so
 
